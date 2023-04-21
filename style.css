@@ -1,0 +1,103 @@
+
+.navbar {
+    width: 97vw;
+    height:6vw;
+    padding-left: 30px;
+    padding-right: 10px;
+    display : flex;
+    justify-content : space-between;
+    align-items: center;
+    
+}
+  
+.logo {
+    display: inline-block;
+    margin-left: 50px;
+    
+
+}
+  
+.nav-links {
+    list-style: none;
+    display : flex;
+    
+}
+  
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+  
+.nav-item:hover {
+    background-color: white;
+}
+
+.sidebar img {
+    height: 30px;
+    width :30px;
+}
+  
+.logo img {
+
+    width: 25%;
+    
+}
+
+footer img {
+    width: 3%;
+}
+
+.flex-main {
+    background-color: lightgray;
+    width : 100%;
+    padding-right: 2.5rem;
+    display : flex;
+    
+}
+
+.image-container{
+    height: 10vh;
+    width: 10vw;
+    background-color:lightyellow;
+    margin: 2rem;
+    color:black;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 97vw;
+    height: 2.5vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* CODE YOUR FLEXBOXES HERE */
+.main-content {
+    width: 90%;
+    height: 87vh;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar {
+    background-color: white;
+    
+    color: black;
+    padding: 1rem;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+body{
+    height: 80%;
+    
+}
